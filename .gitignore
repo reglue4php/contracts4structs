@@ -1,0 +1,13 @@
+# system files
+.env
+.key
+.vscode
+.DS_Store
+# phpunit code coverage
+/coverage
+/vendor
+.phpunit.result.cache
+composer.lock
+# local development server
+dev.php.ini
+server.php

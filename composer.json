@@ -1,0 +1,31 @@
+{
+    "name": "reglue4php/contracts4structs",
+    "description": "PHP - Data Structures abstraction.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Divine Nkwati",
+            "email": "drnkwati+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": ">=3.4",
+        "phpunit/phpunit": ">=6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reglue4php\\Contracts4structs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
